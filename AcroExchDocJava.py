@@ -1,4 +1,4 @@
-#! python3
+#! python3, this code written by kubikanber, 09.11.2018, author: kubikanber
 # Doc Java
 # This object provides the interface between a PDF document open in the viewer and the JavaScript interpreter.
 # It provides methods and properties for accessing the PDF document.

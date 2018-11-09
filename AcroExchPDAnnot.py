@@ -1,4 +1,4 @@
-#! python3
+#! python3, this code written by kubikanber, 09.11.2018, author: kubikanber
 # AcroExch.PDAnnot
 # An annotation on a page in a PDF file. This is a non-creatable interface.
 # Acrobat applications have two built-in annotation types: PDTextAnnot and PDLinkAnnot.

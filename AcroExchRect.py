@@ -1,4 +1,4 @@
-#! python3
+#! python3, this code written by kubikanber, 09.11.2018, author: kubikanber
 # AcroExch.Rect
 # Defines the location of an AcroRect.
 #

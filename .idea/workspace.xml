@@ -35,15 +35,15 @@
           <entry key="LICENSE" value="1" />
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="md" value="2" />
-          <entry key="py" value="41" />
+          <entry key="md" value="3" />
+          <entry key="py" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="41" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -51,14 +51,14 @@
           <entry key="Python Console" value="1904" />
           <entry key="dummy" value="17" />
           <entry key="md" value="23" />
-          <entry key="py" value="26391" />
+          <entry key="py" value="26533" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="23" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="28295" />
+          <entry key="Python" value="28437" />
         </counts>
       </usages-collector>
     </session>
@@ -68,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AcroExchPDDoc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state>
+              <caret column="75" selection-start-column="75" selection-end-column="75" />
               <folding>
                 <element signature="e#3986#4030#0" expanded="true" />
                 <element signature="e#5006#5012#0" />
@@ -104,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AcroExchPDPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+            <state>
+              <caret column="55" selection-start-column="55" selection-end-column="55" />
               <folding>
                 <element signature="e#2761#2783#0" expanded="true" />
                 <element signature="e#2509#2520#0" />
@@ -117,15 +117,15 @@
                 <element signature="e#11350#11360#0" />
                 <element signature="e#11888#11894#0" />
                 <element signature="e#13098#13106#0" />
-                <marker date="1541756373064" expanded="true" signature="2937:2938" ph="..." />
-                <marker date="1541756373064" expanded="true" signature="2937:2943" ph="..." />
-                <marker date="1541756373064" expanded="true" signature="5811:5857" ph="..." />
-                <marker date="1541756373064" expanded="true" signature="11268:11271" ph="..." />
-                <marker date="1541756373064" expanded="true" signature="11268:11273" ph="..." />
-                <marker date="1541756373064" expanded="true" signature="11268:11276" ph="..." />
-                <marker date="1541756373064" expanded="true" signature="11268:11280" ph="..." />
-                <marker date="1541756373064" expanded="true" signature="11268:11281" ph="..." />
-                <marker date="1541756373064" expanded="true" signature="11268:11284" ph="..." />
+                <marker date="1541761342668" expanded="true" signature="2982:2983" ph="..." />
+                <marker date="1541761342668" expanded="true" signature="2982:2988" ph="..." />
+                <marker date="1541761342668" expanded="true" signature="5856:5902" ph="..." />
+                <marker date="1541761342668" expanded="true" signature="11313:11316" ph="..." />
+                <marker date="1541761342668" expanded="true" signature="11313:11318" ph="..." />
+                <marker date="1541761342668" expanded="true" signature="11313:11321" ph="..." />
+                <marker date="1541761342668" expanded="true" signature="11313:11325" ph="..." />
+                <marker date="1541761342668" expanded="true" signature="11313:11326" ph="..." />
+                <marker date="1541761342668" expanded="true" signature="11313:11329" ph="..." />
               </folding>
             </state>
           </provider>
@@ -134,13 +134,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AcroExchDocJava.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="324" column="13" selection-start-line="324" selection-start-column="13" selection-end-line="324" selection-end-column="13" />
+            <state>
+              <caret column="71" lean-forward="true" selection-start-column="57" selection-end-column="75" />
               <folding>
                 <element signature="e#2829#2844#0" expanded="true" />
-                <marker date="1541518181669" expanded="true" signature="3269:3270" ph="..." />
-                <marker date="1541518181669" expanded="true" signature="3269:3275" ph="..." />
-                <marker date="1541518181669" expanded="true" signature="6412:6421" ph="..." />
+                <marker date="1541761563945" expanded="true" signature="3334:3335" ph="..." />
+                <marker date="1541761563945" expanded="true" signature="3334:3340" ph="..." />
+                <marker date="1541761563945" expanded="true" signature="6477:6486" ph="..." />
               </folding>
             </state>
           </provider>
@@ -149,12 +149,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_pdpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#11#20#0" expanded="true" />
-                <marker date="1541756940964" expanded="true" signature="2161:2260" ph="..." />
-                <marker date="1541756940964" expanded="true" signature="2826:2922" ph="..." />
+                <marker date="1541761825076" expanded="true" signature="2268:2367" ph="..." />
+                <marker date="1541761825076" expanded="true" signature="2933:3029" ph="..." />
               </folding>
             </state>
           </provider>
@@ -163,12 +163,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpdddoc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+            <state>
+              <caret column="97" lean-forward="true" selection-start-column="76" selection-end-column="116" />
               <folding>
                 <element signature="e#11#20#0" expanded="true" />
-                <marker date="1541678668279" expanded="true" signature="200:205" ph="..." />
-                <marker date="1541678668279" expanded="true" signature="1026:1031" ph="..." />
+                <marker date="1541761825059" expanded="true" signature="306:311" ph="..." />
+                <marker date="1541761825059" expanded="true" signature="1132:1137" ph="..." />
               </folding>
             </state>
           </provider>
@@ -177,11 +177,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AcroExchAVDoc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+            <state>
+              <caret column="74" selection-start-column="74" selection-end-column="74" />
               <folding>
-                <marker date="1541583158355" expanded="true" signature="2328:2329" ph="..." />
-                <marker date="1541583158355" expanded="true" signature="2328:2334" ph="..." />
+                <marker date="1541761563923" expanded="true" signature="2392:2393" ph="..." />
+                <marker date="1541761563923" expanded="true" signature="2392:2398" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcroExchPoint.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="75" selection-start-column="75" selection-end-column="75" />
+              <folding>
+                <marker date="1541761563916" expanded="true" signature="399:400" ph="..." />
+                <marker date="1541761563916" expanded="true" signature="399:401" ph="..." />
+                <marker date="1541761563916" expanded="true" signature="462:471" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcroExchRect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="75" selection-start-column="75" selection-end-column="75" />
+              <folding>
+                <marker date="1541761563964" expanded="true" signature="550:1615" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcroExchPDAnnot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="75" lean-forward="true" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+              <folding>
+                <marker date="1541761563951" expanded="true" signature="1500:1501" ph="..." />
               </folding>
             </state>
           </provider>
@@ -217,22 +255,22 @@
         <option value="$PROJECT_DIR$/pdf.py" />
         <option value="$PROJECT_DIR$/pdfc.py" />
         <option value="$PROJECT_DIR$/AcroExch.PDDoc.py" />
-        <option value="$PROJECT_DIR$/AcroExchPDAnnot.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/PDFy.py" />
         <option value="$PROJECT_DIR$/PDFpage.py" />
-        <option value="$PROJECT_DIR$/AcroExchDocJava.py" />
         <option value="$PROJECT_DIR$/AcroExchAnnotJava.py" />
         <option value="$PROJECT_DIR$/test01.py" />
         <option value="$PROJECT_DIR$/stjj.py" />
-        <option value="$PROJECT_DIR$/AcroExchAVDoc.py" />
-        <option value="$PROJECT_DIR$/AcroExchRect.py" />
-        <option value="$PROJECT_DIR$/AcroExchPoint.py" />
-        <option value="$PROJECT_DIR$/testpdddoc.py" />
-        <option value="$PROJECT_DIR$/AcroExchPDDoc.py" />
-        <option value="$PROJECT_DIR$/AcroExchPDPage.py" />
-        <option value="$PROJECT_DIR$/test_pdpage.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/AcroExchPDPage.py" />
+        <option value="$PROJECT_DIR$/AcroExchPDAnnot.py" />
+        <option value="$PROJECT_DIR$/AcroExchDocJava.py" />
+        <option value="$PROJECT_DIR$/AcroExchAVDoc.py" />
+        <option value="$PROJECT_DIR$/AcroExchPoint.py" />
+        <option value="$PROJECT_DIR$/AcroExchRect.py" />
+        <option value="$PROJECT_DIR$/AcroExchPDDoc.py" />
+        <option value="$PROJECT_DIR$/testpdddoc.py" />
+        <option value="$PROJECT_DIR$/test_pdpage.py" />
       </list>
     </option>
   </component>
@@ -461,21 +499,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1259" y="65" width="1184" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14412811" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991103" visible="true" weight="0.43942994" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991103" weight="0.43942994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3182898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897863" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32897863" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4991103" weight="0.32897863" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50088966" side_tool="true" weight="0.43942994" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50088966" side_tool="true" weight="0.32897863" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32897863" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -682,18 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AcroExchPoint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <marker date="1541672411602" expanded="true" signature="334:335" ph="..." />
-            <marker date="1541672411602" expanded="true" signature="334:336" ph="..." />
-            <marker date="1541672411602" expanded="true" signature="397:406" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/PDFpage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -714,27 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AcroExchRect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <marker date="1541670097194" expanded="true" signature="485:1550" ph="..." />
-            <marker date="1541670097194" expanded="true" signature="1045:1080" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcroExchPDAnnot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3095">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <marker date="1541142028614" expanded="true" signature="1435:1436" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AcroExchAnnotJava.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1070">
@@ -742,29 +748,6 @@
           <folding>
             <marker date="1541571103877" expanded="true" signature="8346:8347" ph="..." />
             <marker date="1541571103877" expanded="true" signature="8346:8352" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testpdddoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
-          <folding>
-            <element signature="e#11#20#0" expanded="true" />
-            <marker date="1541678668279" expanded="true" signature="200:205" ph="..." />
-            <marker date="1541678668279" expanded="true" signature="1026:1031" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcroExchAVDoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-          <folding>
-            <marker date="1541583158355" expanded="true" signature="2328:2329" ph="..." />
-            <marker date="1541583158355" expanded="true" signature="2328:2334" ph="..." />
           </folding>
         </state>
       </provider>
@@ -790,10 +773,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcroExchPDPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+          <folding>
+            <element signature="e#2761#2783#0" expanded="true" />
+            <element signature="e#2509#2520#0" />
+            <element signature="e#2798#2812#0" />
+            <element signature="e#4768#4779#0" />
+            <element signature="e#5747#5756#0" />
+            <element signature="e#8068#8085#0" />
+            <element signature="e#10428#10446#0" />
+            <element signature="e#11350#11360#0" />
+            <element signature="e#11888#11894#0" />
+            <element signature="e#13098#13106#0" />
+            <marker date="1541761342668" expanded="true" signature="2982:2983" ph="..." />
+            <marker date="1541761342668" expanded="true" signature="2982:2988" ph="..." />
+            <marker date="1541761342668" expanded="true" signature="5856:5902" ph="..." />
+            <marker date="1541761342668" expanded="true" signature="11313:11316" ph="..." />
+            <marker date="1541761342668" expanded="true" signature="11313:11318" ph="..." />
+            <marker date="1541761342668" expanded="true" signature="11313:11321" ph="..." />
+            <marker date="1541761342668" expanded="true" signature="11313:11325" ph="..." />
+            <marker date="1541761342668" expanded="true" signature="11313:11326" ph="..." />
+            <marker date="1541761342668" expanded="true" signature="11313:11329" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcroExchDocJava.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" lean-forward="true" selection-start-column="57" selection-end-column="75" />
+          <folding>
+            <element signature="e#2829#2844#0" expanded="true" />
+            <marker date="1541761563945" expanded="true" signature="3334:3335" ph="..." />
+            <marker date="1541761563945" expanded="true" signature="3334:3340" ph="..." />
+            <marker date="1541761563945" expanded="true" signature="6477:6486" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcroExchAVDoc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="74" selection-start-column="74" selection-end-column="74" />
+          <folding>
+            <marker date="1541761563923" expanded="true" signature="2392:2393" ph="..." />
+            <marker date="1541761563923" expanded="true" signature="2392:2398" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcroExchRect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="75" selection-start-column="75" selection-end-column="75" />
+          <folding>
+            <marker date="1541761563964" expanded="true" signature="550:1615" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AcroExchPDDoc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state>
+          <caret column="75" selection-start-column="75" selection-end-column="75" />
           <folding>
             <element signature="e#3986#4030#0" expanded="true" />
             <element signature="e#5006#5012#0" />
@@ -824,65 +879,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AcroExchDocJava.py">
+    <entry file="file://$PROJECT_DIR$/AcroExchPoint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="324" column="13" selection-start-line="324" selection-start-column="13" selection-end-line="324" selection-end-column="13" />
+        <state>
+          <caret column="75" selection-start-column="75" selection-end-column="75" />
           <folding>
-            <element signature="e#2829#2844#0" expanded="true" />
-            <marker date="1541518181669" expanded="true" signature="3269:3270" ph="..." />
-            <marker date="1541518181669" expanded="true" signature="3269:3275" ph="..." />
-            <marker date="1541518181669" expanded="true" signature="6412:6421" ph="..." />
+            <marker date="1541761563916" expanded="true" signature="399:400" ph="..." />
+            <marker date="1541761563916" expanded="true" signature="399:401" ph="..." />
+            <marker date="1541761563916" expanded="true" signature="462:471" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AcroExchPDPage.py">
+    <entry file="file://$PROJECT_DIR$/AcroExchPDAnnot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="75" lean-forward="true" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
           <folding>
-            <element signature="e#2761#2783#0" expanded="true" />
-            <element signature="e#2509#2520#0" />
-            <element signature="e#2798#2812#0" />
-            <element signature="e#4768#4779#0" />
-            <element signature="e#5747#5756#0" />
-            <element signature="e#8068#8085#0" />
-            <element signature="e#10428#10446#0" />
-            <element signature="e#11350#11360#0" />
-            <element signature="e#11888#11894#0" />
-            <element signature="e#13098#13106#0" />
-            <marker date="1541756373064" expanded="true" signature="2937:2938" ph="..." />
-            <marker date="1541756373064" expanded="true" signature="2937:2943" ph="..." />
-            <marker date="1541756373064" expanded="true" signature="5811:5857" ph="..." />
-            <marker date="1541756373064" expanded="true" signature="11268:11271" ph="..." />
-            <marker date="1541756373064" expanded="true" signature="11268:11273" ph="..." />
-            <marker date="1541756373064" expanded="true" signature="11268:11276" ph="..." />
-            <marker date="1541756373064" expanded="true" signature="11268:11280" ph="..." />
-            <marker date="1541756373064" expanded="true" signature="11268:11281" ph="..." />
-            <marker date="1541756373064" expanded="true" signature="11268:11284" ph="..." />
+            <marker date="1541761563951" expanded="true" signature="1500:1501" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/testpdddoc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="97" lean-forward="true" selection-start-column="76" selection-end-column="116" />
+          <folding>
+            <element signature="e#11#20#0" expanded="true" />
+            <marker date="1541761825059" expanded="true" signature="306:311" ph="..." />
+            <marker date="1541761825059" expanded="true" signature="1132:1137" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_pdpage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#11#20#0" expanded="true" />
-            <marker date="1541756940964" expanded="true" signature="2161:2260" ph="..." />
-            <marker date="1541756940964" expanded="true" signature="2826:2922" ph="..." />
+            <marker date="1541761825076" expanded="true" signature="2268:2367" ph="..." />
+            <marker date="1541761825076" expanded="true" signature="2933:3029" ph="..." />
           </folding>
         </state>
       </provider>

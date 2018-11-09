@@ -1,4 +1,4 @@
-#! python3
+#! python3 this code written by kubikanber, 09.11.2018, author: kubikanber, in this test files words written Turkish
 import os
 
 import AcroExchPDDoc

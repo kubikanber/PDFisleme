@@ -1,4 +1,4 @@
-#! python3
+#! python3 this code written by kubikanber, 09.11.2018, author: kubikanber
 # AcroExch.AVDoc
 # A view of a PDF document in a window. This is a creatable interface. There is one AVDoc object per displayed document.
 #  Unlike a PDDoc object, an AVDoc object has a window associated with it.

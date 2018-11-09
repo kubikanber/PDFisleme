@@ -1,4 +1,4 @@
-#! python3
+#! python3, this code written by kubikanber, 09.11.2018, author: kubikanber
 # https://help.adobe.com/en_US/acrobat/acrobat_dc_sdk/2015/HTMLHelp/index.html#t=Acro12_MasterBook%2FIAC_API_OLE_Objects%2FAcroExch_PDDoc.htm
 # AcroExch.PDDoc
 # The underlying PDF representation of a document. This is a creatable interface. There is a correspondence between
