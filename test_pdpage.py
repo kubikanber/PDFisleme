@@ -4,7 +4,7 @@ import os
 import AcroExchPDDoc
 import AcroExchRect
 
-dosya = "ekli.pdf"
+dosya = ".\\test\\ekli.pdf"
 dosya_yol = os.path.abspath(dosya)
 pdf_dosyası = AcroExchPDDoc.PDDoc(dosya_yol)
 
@@ -67,7 +67,7 @@ def sayfa_dönüklüğü(sayfa):
 def arka_plana_kopyala(sayfa):
     sınır = AcroExchRect.Rect()
     sınır.create_rect(0, 0, 400, 400)
-    if sayfa.copy_to_clipboard(sınır.rect, 1, 1,100):
+    if sayfa.copy_to_clipboard(sınır.rect, 1, 1, 100):
         print("Seçilen yer kopyalandı.")
 
 
@@ -76,6 +76,23 @@ def sayfa_boyutu(sayfa):
     x_noktası = boyut.x() / ((72 / 2.54) / 10)  # mm
     y_noktası = boyut.y() / ((72 / 2.54) / 10)  # mm
     print("Sayfa {:0.0f} x {:0.0f} boyutlarındadır.".format(x_noktası, y_noktası))
+
+
+def sayfayı_kırp(sayfa):
+    sınır = AcroExchRect.Rect()
+    sınır.create_rect(0, 0, 400, 400)
+    if sayfa.crop_page(sınır.rect):
+        print("Sayfa kırpıldı.")
+
+
+def yorum_sil(sayfa, yorum_index_numarası):
+    if sayfa.remove_annot(yorum_index_numarası):
+        print("yapıldı.")
+
+
+def sayfayı_döndür(sayfa, döndür):
+    if sayfa.set_rotate(döndür):
+        print("{} derece sayfa döndürüldü.".format(döndür))
 
 
 if __name__ == '__main__':
@@ -87,5 +104,10 @@ if __name__ == '__main__':
         sayfa_dönüklüğü(sayfa)
         sayfa_boyutu(sayfa)
 
-    arka_plana_kopyala(pdf_sayfaları[1])
+    # arka_plana_kopyala(pdf_sayfaları[1])
+    # sayfayı_kırp(pdf_sayfaları[0])
+    # yorum_sil(pdf_sayfaları[0], 0)
+    # yorum_sayısı(pdf_sayfaları[0])
+    # sayfayı_döndür(pdf_sayfaları[0], 0)
+
     dosya_kapat()

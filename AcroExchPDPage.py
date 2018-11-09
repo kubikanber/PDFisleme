@@ -10,7 +10,7 @@
 # Methods
 # The PDPage object has the following methods.
 #
-# Method# #     Description
+# Method#############Description########################################################################################
 #
 # AddAnnot          # Adds a specified annotation at a specified location in the page’s annotation array
 #                       #önçe get çözümlenecek
@@ -98,8 +98,8 @@ class PDPage:
     # Returns
     # The LPDISPATCH for the AcroExch.PDAnnot object.
     # Buradan sınıf bağlantısı yapılacak........
-    def get_annot(self, yorum_numarası=0):
-        pdannot = AcroExchPDAnnot.PDAnnot(self.pdpage.GetAnnot(yorum_numarası))
+    def get_annot(self, annot_index_number=0):
+        pdannot = AcroExchPDAnnot.PDAnnot(self.pdpage.GetAnnot(annot_index_number))
         return pdannot
 
     # GetAnnotIndex
@@ -116,8 +116,8 @@ class PDPage:
     #
     # Returns
     # The annotation’s index.
-    def get_annot_index(self, yorum):
-        return self.pdpage.GetAnnotIndex(yorum)
+    def get_annot_index(self, pdannot):
+        return self.pdpage.GetAnnotIndex(pdannot)
 
     # GetDoc
     # Gets the AcroExch.PDDoc associated with the page.
@@ -155,8 +155,8 @@ class PDPage:
     #
     # Returns
     # 0 if the Acrobat application does not support editing, -1 otherwise.
-    def set_rotate(self, derece):
-        return self.pdpage.SetRotate(derece)
+    def set_rotate(self, rotate):
+        return self.pdpage.SetRotate(rotate)
 
     # GetSize
     # Gets a page’s width and height in points.
@@ -192,8 +192,8 @@ class PDPage:
     # 0 if the Acrobat application does not support editing, -1 otherwise
     # burada AcroExch.PDAnnot objesi kullanılacak.
     # Annot objesi önceden oluşturulup sonra sayfa eklenmesi
-    def add_annot(self, yorum_nodan_sonra, iPDAnnot):
-        return self.pdpage.AddAnnot(yorum_nodan_sonra, iPDAnnot)
+    def add_annot(self, index_add_after, pdannot):
+        return self.pdpage.AddAnnot(index_add_after, pdannot)
 
     # AddNewAnnot
     # Creates a new text annotation and adds it to the page.
@@ -223,12 +223,12 @@ class PDPage:
     # Returns
     # The LPDISPATCH for an AcroExch.PDAnnot object, or NULL if the annotation could not be added.
     # burada son yorumdan sonra yorum tipi bildirilerek oluşturulan acrorect objesi ile ekleme yapılıyor.
-    def add_new_annot(self, yorum_nodan_sonra, yorum_tipi, iAcroRect):
-        return self.pdpage.AddNewAnnot(yorum_nodan_sonra, yorum_tipi, iAcroRect)
+    def add_new_annot(self, index_add_after, sub_type, acrorect):
+        return self.pdpage.AddNewAnnot(index_add_after, sub_type, acrorect)
 
     # CopyToClipboard
     # Copies a PDF image to the clipboard without requiring an hWnd or hDC from the client.
-    # This method is only available on 32-bit systems.
+    # This method is only available on 32-bit systems.*****
     #
     # Syntax
     # VARIANT_BOOL CopyToClipboard(LPDISPATCH boundRect,
@@ -258,5 +258,190 @@ class PDPage:
     #
     # Returns
     # -1 if the page is successfully copied, 0 otherwise.
-    def copy_to_clipboard(self, acrorect, nXOrigin, nYOrigin, nZoom=1):
-        return self.pdpage.CopyToClipboard(acrorect, nXOrigin, nYOrigin, nZoom)
+    def copy_to_clipboard(self, acrorect, x_origin, y_origin, zoom=100):
+        return self.pdpage.CopyToClipboard(acrorect, x_origin, y_origin, zoom)
+
+    # CreatePageHilite
+    # Creates a text selection from a list of character offsets and character counts on a single page.
+    # The text selection can then be set as the current selection using AVDoc.SetTextSelection,
+    # and the view can be set to show the selection using AVDoc.ShowTextSelect.
+    #
+    # Syntax
+    # LPDISPATCH CreatePageHilite(LPDISPATCH iAcroHiliteList);
+    #
+    # Parameters
+    # iAcroHiliteList
+    #
+    # The LPDISPATCH for the highlight list for which a text selection is created.
+    # iAcroHiliteList contains the instance variable m_lpDispatch, which contains the LPDISPATCH.
+    #
+    # Use HiliteList.Add to create a highlight list.
+    #
+    # Returns
+    # The LPDISPATCH for the AcroExch.PDTextSelect containing the text selection,
+    # or NULL if the selection could not be created.
+    def create_page_hilite(self, acro_hilite_list):  # TODO: future
+        return self.pdpage.CreatePageHilite(acro_hilite_list)
+
+    # CreateWordHilite
+    # Creates a text selection from a list of word offsets and word counts on a single page.
+    # The text selection can then be set as the current selection using AVDoc.SetTextSelection, and the view can
+    # be set to show the selection using AVDoc.ShowTextSelect.
+    #
+    # Syntax
+    # LPDISPATCH CreateWordHilite(LPDISPATCH iAcroHiliteList);
+    #
+    # Parameters
+    # iAcroHiliteList
+    #
+    # The LPDISPATCH for the highlight list for which a text selection is created. iAcroHiliteList contains the
+    # instance variable m_lpDispatch, which contains the LPDISPATCH.
+    #
+    # Use HiliteList.Add to create a highlight list.
+    #
+    # Returns
+    # The LPDISPATCH for the AcroExch.PDTextSelect, or NULL if the selection could not be created.
+    def create_word_hilite(self, acro_hilite_list):  # TODO: future
+        return self.pdpage.CreateWordHilite(acro_hilite_list)
+
+    # CropPage
+    # Crops the page. This method ignores the request if either the width or height of the crop box is
+    # less than 72 points (one inch).
+    #
+    # Syntax
+    # VARIANT_BOOL CropPage(LPDISPATCH iAcroRect);
+    #
+    # Parameters
+    # iAcroRect
+    #
+    # An LPDISPATCH for a CAcroRect specifying the cropping rectangle, which is specified in user space.
+    #
+    # Returns
+    # -1 if the page was cropped successfully, 0 otherwise.
+    def crop_page(self, acrorect):
+        return self.pdpage.CropPage(acrorect)
+
+    # Draw
+    # Note:Deprecated. As of Acrobat 3.0, this method simply returns false. Use the method AVDoc.DrawEx instead.
+    #
+    # Syntax
+    # VARIANT_BOOL Draw(short window, short displayContext,
+    #
+    #                  short XOrigin,short YOrigin, short zoom);
+    #
+    # Parameters
+    # window
+    #
+    # HWND into which the page is to be drawn.
+    #
+    # displayContext
+    #
+    # hDC to use for drawing. If NULL, the HDC for window is used.
+    #
+    # displayContext cannot be reliably used as the hDC for a printer device. In particular,
+    # Visual Basic applications cannot use Draw to print.
+    #
+    # XOrigin
+    #
+    # The x–coordinate of the portion of the page to be drawn.
+    #
+    # YOrigin
+    #
+    # The y–coordinate of the portion of the page to be drawn.
+    #
+    # zoom
+    #
+    # Zoom factor at which the page is to be drawn, specified as a percent. For example, 100 corresponds to a
+    # magnification of 1.0.
+    #
+    # Returns
+    # -1 if the page is successfully drawn, 0 otherwise.
+    def draw(self, window, display_context, x_origin, y_origin, zoom):  # TODO: Not used.
+        return self.pdpage.Draw(window, display_context, x_origin, y_origin, zoom)
+
+    # DrawEx
+    # Draws page contents into a specified window.
+    #
+    # You can use PDPage.CopyToClipboard to copy page contents to the clipboard without an hWnd or hDC from the client.
+    #
+    # Syntax
+    # VARIANT_BOOL DrawEx(long window, long displayContext,
+    #                  LPDISPATCH updateRect, short xOrigin,
+    #                  short yOrigin, short zoom);
+    #
+    # Parameters
+    # window
+    #
+    # Handle for the window (HWND) into which the page is drawn.
+    #
+    # displayContext
+    #
+    # This parameter is invalid; do not use it. Assign it a NULL value.
+    # If it is not assigned NULL, an exception is thrown.
+    #
+    # Note:displayContext cannot be reliably used as the hDC for a printer device. In particular,
+    # Visual Basic applications cannot use DrawEx to print.
+    #
+    # updateRect
+    #
+    # LPDISPATCH for an AcroExch.Rect to be drawn with user space coordinates. updateRect contains the instance
+    # variable m_lpDispatch, which contains the LPDISPATCH.
+    #
+    # Any objects outside of updateRect are not drawn. All objects are drawn if updateRect is NULL.
+    #
+    # Use methods in the CAcroRect class to set the size of the rectangle. For example:
+    #
+    # CAcroRect* rect = new CAcroRect;
+    #
+    #
+    #
+    # rect->CreateDispatch("AcroExch.Rect", &e);
+    #
+    # if (rect) {
+    #
+    # /* Set values for rect - increases from right to left and bottom to top */
+    #
+    #       rect->SetLeft(100);
+    #
+    #       rect->SetTop(400);
+    #
+    #       rect->SetRight(400);
+    #
+    #       rect->SetBottom(100);
+    #
+    # }
+    #
+    # xOrigin
+    #
+    # The x–coordinate of the portion of the page to be drawn.
+    #
+    # yOrigin
+    #
+    # The y–coordinate of the portion of the page to be drawn.
+    #
+    # zoom
+    #
+    # Zoom factor at which the page is drawn, specified as a percent.
+    # For example, 100 corresponds to a magnification of 1.0.
+    #
+    # Returns
+    # A positive number if the page is successfully drawn, 0 otherwise.
+    def draw_ex(self, window, display_context, update_rect, x_origin, y_origin, zoom):  # TODO: Not used.
+        return self.pdpage.DrawEx(window, display_context, update_rect, x_origin, y_origin, zoom)
+
+    # RemoveAnnot
+    # Removes the specified annotation from the page’s annotation array.
+    #
+    # Syntax
+    # VARIANT_BOOL RemoveAnnot(long nIndex);
+    #
+    # Parameters
+    # nIndex
+    #
+    # Index within the page’s annotation array of the annotation to be deleted.
+    # The first annotation on a page has an index of zero.
+    #
+    # Returns
+    # 0 if the Acrobat application does not support editing, a positive number otherwise.
+    def remove_annot(self, annot_index_number):
+        self.pdpage.RemoveAnnot(annot_index_number)
