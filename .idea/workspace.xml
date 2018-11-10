@@ -55,14 +55,14 @@
           <entry key="Python Console" value="1904" />
           <entry key="dummy" value="17" />
           <entry key="md" value="25" />
-          <entry key="py" value="30651" />
+          <entry key="py" value="30883" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="25" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="32555" />
+          <entry key="Python" value="32787" />
         </counts>
       </usages-collector>
     </session>
@@ -151,33 +151,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AcroExchRect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="51">
+              <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
               <folding>
-                <marker date="1541844299009" expanded="true" signature="550:1442" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_annot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding>
-                <element signature="e#118#127#0" expanded="true" />
-                <marker date="1541844787934" expanded="true" signature="710:1952" ph="..." />
+                <marker date="1541846572306" expanded="true" signature="766:1658" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_annot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+              <folding>
+                <element signature="e#118#127#0" expanded="true" />
+                <marker date="1541846572297" expanded="true" signature="685:1927" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_pdpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="-681">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -610,7 +610,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_annot.py</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
@@ -888,6 +888,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AcroExchPDAnnot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="101" column="11" lean-forward="true" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
+          <folding>
+            <element signature="e#1696#1715#0" expanded="true" />
+            <marker date="1541844298998" expanded="true" signature="1752:1753" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_pdpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-681">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AcroExchTime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1750">
@@ -901,40 +919,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AcroExchRect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="51">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
           <folding>
-            <marker date="1541844299009" expanded="true" signature="550:1442" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcroExchPDAnnot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="101" column="11" lean-forward="true" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
-          <folding>
-            <element signature="e#1696#1715#0" expanded="true" />
-            <marker date="1541844298998" expanded="true" signature="1752:1753" ph="..." />
+            <marker date="1541846572306" expanded="true" signature="766:1658" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_annot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="152">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
           <folding>
             <element signature="e#118#127#0" expanded="true" />
-            <marker date="1541844787934" expanded="true" signature="710:1952" ph="..." />
+            <marker date="1541846572297" expanded="true" signature="685:1927" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_pdpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@
 # The Rect object has the following properties.
 #
 # Properties
-# Property  # Description
+# Property ## Description ##############################################################################################
 #
 # Bottom    # Gets or sets the bottom y-coordinate of an AcroRect.
 #
@@ -14,6 +14,7 @@
 # Right     # Gets or sets the right x-coordinate of an AcroRect.
 #
 # Top       # Gets or sets the top y-coordinate of an AcroRect.
+########################################################################################################################
 from win32com.client.dynamic import Dispatch
 
 

@@ -2,7 +2,6 @@
 import os
 
 import AcroExchPDDoc
-from test import test_pd
 
 dosya = "ekli.pdf"
 dosya_yol = os.path.abspath(dosya)
