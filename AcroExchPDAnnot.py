@@ -42,6 +42,7 @@
 # SetRect       # Sets an annotation’s bounding rectangle.
 #
 # SetTitle      # Sets a text annotation’s title.
+import AcroExchTime
 
 
 class PDAnnot:
@@ -83,7 +84,8 @@ class PDAnnot:
     # The LPDISPATCH for an AcroExch.Time object containing the date.
     # Sonuç Date objesi dönüyor. bunun için AcroExch.Time object ile bağlanılacak.
     def get_date(self):
-        return self.pdannot.GetDate()
+        annot_date = AcroExchTime.AcroTime(self.pdannot.GetDate())
+        return annot_date
 
     # GetRect
     # Gets an annotation’s bounding rectangle.

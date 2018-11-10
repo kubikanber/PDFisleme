@@ -1,4 +1,4 @@
-#! python3
+#! python3, this code written by kubikanber, 09.11.2018, author: kubikanber
 # Annot Java
 # Annotation
 # This object represents an Acrobat annotation. Annotations can be created using the Acrobat annotation tool or
@@ -138,11 +138,13 @@
 # Annotation properties
 # The PDF Reference documents all Annotation properties and specifies how they are stored.
 #
-# Some property values are stored in the PDF document as names and others are stored as strings (see the PDF Reference for details). A property stored as a name can have only 127 characters.
+# Some property values are stored in the PDF document as names and others are stored as strings
+# (see the PDF Reference for details). A property stored as a name can have only 127 characters.
 #
-# Examples of properties that have a 127-character limit include AP, beginArrow, endArrow, attachIcon, noteIcon, and soundIcon.
+# Examples of properties that have a 127-character limit include AP, beginArrow,
+# endArrow, attachIcon, noteIcon, and soundIcon.
 #
-# The Annotation properties are:
+# The Annotation properties are: #######################################################################################
 #
 # alignment     # doCaption     # overlayText   # seqNum        # AP        # fillColor # page          # soundIcon
 #
@@ -159,7 +161,7 @@
 # repeat        # vertices      # dash          # noteIcon      # richContents          # width         # delay
 #
 # noView        # richDefaults  # doc           # opacity       # rotate
-#
+########################################################################################################################
 
 
 class AnnotJava:
@@ -170,11 +172,12 @@ class AnnotJava:
     # The type of annotation. The type of an annotation can only be set within the object-literal argument of the Doc
     # object addAnnot method. The valid values are:
     #
-    #    Text    #     #    FreeText    #     #    Line    #     #    Square    #     #    Circle    #     #    Polygon
+    # Text       #FreeText   #Line          #Square     #Circle     #Polygon    #PolyLine           #Highlight
     #
-    #    PolyLine    #     #    Highlight    #     #    Underline    #     #    Squiggly    #     #    StrikeOut
+    # Underline  #Squiggly   #StrikeOut     #Stamp      #Caret      #Ink        #FileAttachment     #Sound
     #
-    #    Stamp    #     #    Caret    #     #    Ink    #     #    FileAttachment    #     #    Sound    #     # Type
+    #
+    # Type
     # String
     #
     # Access
@@ -195,7 +198,9 @@ class AnnotJava:
     #
     # Annotations
     # All
-    def get_set_page(self):
+    def get_set_page(self, value=None):
+        if value is not None:
+            self.annotjava.page = value
         return self.annotjava.page
 
     # Accesses the contents of any annotation that has a pop-up window. For sound and file attachment annotations,
@@ -209,5 +214,7 @@ class AnnotJava:
     #
     # Annotations
     # All
-    def get_set_contents(self):
+    def get_set_contents(self, value):
+        if value is not None:
+            self.annotjava.contents = value
         return self.annotjava.contents
