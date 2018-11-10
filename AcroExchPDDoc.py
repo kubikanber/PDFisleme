@@ -41,8 +41,8 @@
 #
 # GetInstanceID     # Gets the instance ID (the second element) from the ID array in the document’s trailer.
 #
-# GetJSObject       # Gets a dual interface to the JavaScript object associated with the PDDoc. Burada
-#                       Doc objelerine JavaScript komutları ile ulaşmak için
+# GetJSObject       # Gets a dual interface to the JavaScript object associated with the PDDoc.
+#                       Burada Doc objelerine JavaScript komutları ile ulaşmak için...
 #                       https://stackoverflow.com/questions/9383307/not-implemented-exception-when-using-pywin32-to-control-adobe-acrobat
 #
 # GetNumPages       # Gets the number of pages in a file.
@@ -659,3 +659,27 @@ class PDDoc:
         re.open()
         return self.pddoc.ReplacePages(start_page, re.pddoc, source_start_page,
                                        source_pages, merge_text_annotations)
+
+    # CreateTextSelect
+    # Creates a text selection from the specified rectangle on the specified page. After creating the text selection,
+    # use the AVDoc.SetTextSelection method to use it as the document’s selection, and use AVDoc.ShowTextSelect to show
+    # the selection.
+    #
+    # Syntax
+    # LPDISPATCH CreateTextSelect(long nPage, LPDISPATCH iAcroRect);
+    #
+    # Parameters
+    # nPage
+    #
+    # The page on which the selection is created. The first page in a PDDoc object is page 0.
+    #
+    # iAcroRect
+    #
+    # The LPDISPATCH for the AcroExch.Rect enclosing the region to select. iAcroRect contains the instance
+    # variable m_lpDispatch, which contains the LPDISPATCH.
+    #
+    # Returns
+    # The LPDISPATCH for an AcroExch.PDTextSelect containing the text selection. Returns NULL if the text selection
+    # was not created successfully.
+    def create_text_select(self, page, acrorect):  # TODO: future
+        return self.pddoc.CreateTextSelect(page, acrorect)

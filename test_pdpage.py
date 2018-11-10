@@ -108,6 +108,6 @@ if __name__ == '__main__':
     # sayfayı_kırp(pdf_sayfaları[0])
     # yorum_sil(pdf_sayfaları[0], 0)
     # yorum_sayısı(pdf_sayfaları[0])
-    # sayfayı_döndür(pdf_sayfaları[0], 0)
+    # sayfayı_döndür(pdf_sayfaları[0], 90)
 
     dosya_kapat()

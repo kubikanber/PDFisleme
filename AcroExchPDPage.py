@@ -1,4 +1,4 @@
-#! python3, this code written by kubikanber, 09.11.2018
+#! python3, this code written by kubikanber, 09.11.2018, author: kubikanber
 # https://help.adobe.com/en_US/acrobat/acrobat_dc_sdk/2015/HTMLHelp/index.html#t=Acro12_MasterBook%2FIAC_API_OLE_Objects%2FAcroExch_PDDoc.htm
 # AcroExch.PDPage
 # A single page in the PDF representation of a document. This is a non-creatable interface.
@@ -49,6 +49,7 @@
 
 # Need AcquirePage object. bu sınıfı çalıştırmak için AcroExch.PDDoc dan AcquirePage objesi alınması gerekmektedir.
 import AcroExchPDAnnot
+import AcroExchPDDoc
 import AcroExchPoint
 
 
@@ -129,7 +130,8 @@ class PDPage:
     # The LPDISPATCH for the page’s AcroExch.PDDoc.
     # sayfadan tüm dökümanı alıyor. tüm sayfaları geri almak için bir yöntem
     def get_doc(self):
-        return self.pdpage.GetDoc()
+        pddoc = AcroExchPDDoc.PDDoc(self.pdpage.GetDoc())
+        return pddoc
 
     # GetRotate
     # Gets the rotation value, in degrees, for the current page.
@@ -258,7 +260,7 @@ class PDPage:
     #
     # Returns
     # -1 if the page is successfully copied, 0 otherwise.
-    def copy_to_clipboard(self, acrorect, x_origin, y_origin, zoom=100):
+    def copy_to_clipboard(self, acrorect, x_origin, y_origin, zoom=100): # TODO: Not working tobe check
         return self.pdpage.CopyToClipboard(acrorect, x_origin, y_origin, zoom)
 
     # CreatePageHilite

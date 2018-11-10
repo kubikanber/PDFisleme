@@ -85,8 +85,8 @@ class PDFdosya:
 
     def pdf_sayfa_boyutu(self, sayfa):
         pdf_ölçü = sayfa.get_size()  # sayfa ölçülerini almak için
-        ölçü_x = pdf_ölçü.X  # Acro point[Adobe] 1" 72 point
-        ölçü_y = pdf_ölçü.Y  # Acro point[Adobe] 1" 72 point
+        ölçü_x = pdf_ölçü.x()  # Acro point[Adobe] 1" 72 point
+        ölçü_y = pdf_ölçü.y()  # Acro point[Adobe] 1" 72 point
         x = ölçü_x / ((72 / 2.54) / 10)  # mm
         y = ölçü_y / ((72 / 2.54) / 10)  # mm
         print("Sayfa {:0.1f} x {:0.1f} ölçüsündedir.".format(x, y))
@@ -161,7 +161,7 @@ def işlemler(işlem_no):
 
             for y in range(0, yorum_sayısı):
                 # input("bas")
-                pdf_jave.sync_annot_scan()
+                 # pdf_jave.sync_annot_scan()
                 yorum = sayfa.get_annot(y)
                 yorum_index = sayfa.get_annot_index(yorum.pdannot)
                 # while True:
