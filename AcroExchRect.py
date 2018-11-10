@@ -19,8 +19,11 @@ from win32com.client.dynamic import Dispatch
 
 class Rect:
 
-    def __init__(self):
-        self.rect = Dispatch("AcroExch.Rect")
+    def __init__(self, value=None):
+        if value is not None:
+            self.rect = value
+        else:
+            self.rect = Dispatch("AcroExch.Rect")
 
     def bottom(self, value=None):
         if value is not None:

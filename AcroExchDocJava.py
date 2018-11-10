@@ -16,222 +16,62 @@
 # the event. You can then access the Doc object through the Doc method of the Field object.
 #
 # For all other events, event.target points to the Doc.
-# Doc methods
-# addAnnot
 #
-# getAnnot3D
+# Doc properties #######################################################################################################
 #
-# mailDoc
+# alternatePresentations    # external  # mouseX    # securityHandler   # author    # filesize  # mouseY
 #
-# addField
+# selectedAnnots    # baseURL   # hidden    # noautocomplete    # sounds    # bookmarkRoot  # hostContainer # numFields
 #
-# getAnnots
+# spellDictionaryOrder  # calculate # icons # numPages  # spellLanguageOrder    # collection    # info  # numTemplates
 #
-# mailForm
+# subject   # creationDate  # innerAppWindowRect    # path  # templates # creator   # innerDocWindowRect
 #
-# addIcon
+# outerAppWindowRect    # title # dataObjects   # isModal   # outerDocWindowRect    # URL   # delay # keywords
 #
-# getAnnots3D
+# pageNum   # viewState # dirty # layout    # pageWindowRect    # xfa   # disclosed # media # permStatusReady
 #
-# movePage
+# XFAForeground # docID # metadata  # producer  # zoom  # documentFileName  # modDate   # requiresFullSave  # zoomType
 #
-# addLink
+# dynamicXFAForm
 #
-# getColorConvertAction
+########################################################################################################################
 #
-# newPage
+# Doc methods ##########################################################################################################
+# addAnnot  # getAnnot3D    # mailDoc   # addField  # getAnnots # mailForm  # addIcon   # getAnnots3D   # movePage
 #
-# addRecipientListCryptFilter
+# addLink   # getColorConvertAction     # newPage   # addRecipientListCryptFilter       # getDataObject # openDataObject
 #
-# getDataObject
+# addRequirement            # getDataObjectContents # preflight # addScript # getField  # print         # addThumbnails
 #
-# openDataObject
+# getIcon   # removeDataObject          # addWatermarkFromFile  # getLegalWarnings      # removeField
 #
-# addRequirement
+# addWatermarkFromText      # getLinks  # removeIcon            # addWeblinks           # getNthFieldName
 #
-# getDataObjectContents
+# removeLinks   # applyRedactions   # getNthTemplate    # removePreflightAuditTrail # bringToFront  # getOCGs
 #
-# preflight
+# removeRequirement # calculateNow  # getOCGOrder       # removeScript  # certifyInvisibleSign  # getPageBox
 #
-# addScript
+# removeTemplate    # closeDoc      # getPageLabel      # removeThumbnails  # colorConvertPage  # getPageNthWord
 #
-# getField
+# removeWeblinks    # createDataObject  # getPageNthWordQuads   # replacePages  # createTemplate    # getPageNumWords
 #
-# print
+# resetForm # deletePages   # getPageRotation   # saveAs    # deleteSound   # getPageTransition # scroll
 #
-# addThumbnails
+# embedDocAsDataObject  # getPreflightAuditTrail    # selectPageNthWord # embedOutputIntent # getPrintParams
 #
-# getIcon
+# setAction # encryptForRecipients  # getSound  # setDataObjectContents # encryptUsingPolicy    # getTemplate
 #
-# removeDataObject
+# setOCGOrder   # exportAsFDF   # getURL    # setPageAction # exportAsFDFStr    # getUserUnitSize   # setPageBoxes
 #
-# addWatermarkFromFile
+# exportAsText  # gotoNamedDest # setPageLabels # exportAsXFDF  # importAnFDF   # setPageRotations  # exportAsXFDFStr
 #
-# getLegalWarnings
+# importAnXFDF  # setPageTabOrder   # exportDataObject  # importDataObject  # setPageTransitions    # exportXFAData
 #
-# removeField
+# importIcon    # spawnPageFromTemplate # extractPages  # importSound   # submitForm    # flattenPages  # importTextData
 #
-# addWatermarkFromText
-#
-# getLinks
-#
-# removeIcon
-#
-# addWeblinks
-#
-# getNthFieldName
-#
-# removeLinks
-#
-# applyRedactions
-#
-# getNthTemplate
-#
-# removePreflightAuditTrail
-#
-# bringToFront
-#
-# getOCGs
-#
-# removeRequirement
-#
-# calculateNow
-#
-# getOCGOrder
-#
-# removeScript
-#
-# certifyInvisibleSign
-#
-# getPageBox
-#
-# removeTemplate
-#
-# closeDoc
-#
-# getPageLabel
-#
-# removeThumbnails
-#
-# colorConvertPage
-#
-# getPageNthWord
-#
-# removeWeblinks
-#
-# createDataObject
-#
-# getPageNthWordQuads
-#
-# replacePages
-#
-# createTemplate
-#
-# getPageNumWords
-#
-# resetForm
-#
-# deletePages
-#
-# getPageRotation
-#
-# saveAs
-#
-# deleteSound
-#
-# getPageTransition
-#
-# scroll
-#
-# embedDocAsDataObject
-#
-# getPreflightAuditTrail
-#
-# selectPageNthWord
-#
-# embedOutputIntent
-#
-# getPrintParams
-#
-# setAction
-#
-# encryptForRecipients
-#
-# getSound
-#
-# setDataObjectContents
-#
-# encryptUsingPolicy
-#
-# getTemplate
-#
-# setOCGOrder
-#
-# exportAsFDF
-#
-# getURL
-#
-# setPageAction
-#
-# exportAsFDFStr
-#
-# getUserUnitSize
-#
-# setPageBoxes
-#
-# exportAsText
-#
-# gotoNamedDest
-#
-# setPageLabels
-#
-# exportAsXFDF
-#
-# importAnFDF
-#
-# setPageRotations
-#
-# exportAsXFDFStr
-#
-# importAnXFDF
-#
-# setPageTabOrder
-#
-# exportDataObject
-#
-# importDataObject
-#
-# setPageTransitions
-#
-# exportXFAData
-#
-# importIcon
-#
-# spawnPageFromTemplate
-#
-# extractPages
-#
-# importSound
-#
-# submitForm
-#
-# flattenPages
-#
-# importTextData
-#
-# syncAnnotScan
-#
-# getAnnot
-#
-# importXFAData
-#
-# timestampSign
-#
-#
-#
-# insertPages
-#
-# validatePreflightAuditTrail
+# syncAnnotScan # getAnnot  # importXFAData # timestampSign # insertPages   # validatePreflightAuditTrail
+########################################################################################################################
 
 import winerror
 

@@ -9,7 +9,7 @@
 # Methods
 # The PDAnnot object has the following methods.
 #
-# Method        # Description
+# Method ######## Description ##########################################################################################
 #
 # GetColor      # Gets an annotation’s color.
 #
@@ -42,6 +42,8 @@
 # SetRect       # Sets an annotation’s bounding rectangle.
 #
 # SetTitle      # Sets a text annotation’s title.
+########################################################################################################################
+import AcroExchRect
 import AcroExchTime
 
 
@@ -97,7 +99,8 @@ class PDAnnot:
     # The LPDISPATCH for an AcroExch.Rect containing the annotation’s bounding rectangle
     # burada rect objesi dönüyor. AcroExch.Rect ojesinden değerler alınacak.
     def get_rect(self):
-        return self.pdannot.GetRect()
+        acrorect = AcroExchRect.Rect(self.pdannot.GetRect())
+        return acrorect
 
     # GetSubtype
     # Gets an annotation’s subtype.
@@ -135,8 +138,8 @@ class PDAnnot:
     #
     # Returns
     # -1 if the annotations are the same, 0 otherwise.
-    def is_equal(self, annot_objesi):
-        return self.pdannot.IsEqual(annot_objesi)
+    def is_equal(self, pdannot):
+        return self.pdannot.IsEqual(pdannot)
 
     # IsOpen
     # Tests whether a text annotation is open.
@@ -176,8 +179,8 @@ class PDAnnot:
     #
     # Returns
     # -1 if the action was executed successfully, 0 otherwise.
-    def perform(self, avdoc_objesi):
-        return self.pdannot.Perform(avdoc_objesi)
+    def perform(self, acroavdoc):
+        return self.pdannot.Perform(acroavdoc)
 
     # SetColor
     # Sets an annotation’s color.
@@ -196,8 +199,8 @@ class PDAnnot:
     # nRGBColor is a long value with the form 0x00BBGGRR where the first byte from the right (RR)
     # is a relative value for red, the second byte (GG) is a relative value for green, and the third byte (BB)
     # is a relative value for blue. The high-order byte must be 0.
-    def set_color(self, renk_sayısı):
-        return self.pdannot.SetColor(renk_sayısı)
+    def set_color(self, rgb_color):
+        return self.pdannot.SetColor(rgb_color)
 
     # SetContents
     # Sets a text annotation’s contents.
@@ -212,8 +215,8 @@ class PDAnnot:
     #
     # Returns
     # 0 if the Acrobat application does not support editing, -1 otherwise.
-    def set_contents(self, içerik):
-        return self.pdannot.SetContents(içerik)
+    def set_contents(self, contents):
+        return self.pdannot.SetContents(contents)
 
     # SetDate
     # Sets an annotation’s date.
@@ -229,8 +232,8 @@ class PDAnnot:
     #
     # Returns
     # -1 if the date was set, 0 if the Acrobat application does not support editing.
-    def set_date(self, time_objesi):
-        return self.pdannot.SetDate(time_objesi)
+    def set_date(self, acrotime):
+        return self.pdannot.SetDate(acrotime)
 
     # SetOpen
     # Opens or closes a text annotation.
@@ -246,8 +249,8 @@ class PDAnnot:
     #
     # Returns
     # Always returns -1.
-    def set_open(self, aç_kapa):
-        return self.pdannot.SetOpen(aç_kapa)
+    def set_open(self, is_open):
+        return self.pdannot.SetOpen(is_open)
 
     # SetRect
     # Sets an annotation’s bounding rectangle.
@@ -263,8 +266,8 @@ class PDAnnot:
     #
     # Returns
     # -1 if a rectangle was supplied, 0 otherwise.
-    def set_rect(self, rect_objesi):
-        return self.pdannot.SetRect(rect_objesi)
+    def set_rect(self, acrorect):
+        return self.pdannot.SetRect(acrorect)
 
     # SetTitle
     # Sets a text annotation’s title.
@@ -279,5 +282,5 @@ class PDAnnot:
     #
     # Returns
     # -1 if the title was set, 0 if the Acrobat application does not support editing.
-    def set_title(self, başlık):
-        return self.pdannot.SetTitle(başlık)
+    def set_title(self, title):
+        return self.pdannot.SetTitle(title)

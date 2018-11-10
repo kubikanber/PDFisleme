@@ -4,7 +4,7 @@ import os
 import AcroExchPDDoc
 import AcroExchRect
 
-dosya = ".\\test\\ekli.pdf"
+dosya = "ekli.pdf"
 dosya_yol = os.path.abspath(dosya)
 pdf_dosyası = AcroExchPDDoc.PDDoc(dosya_yol)
 

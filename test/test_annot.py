@@ -2,7 +2,7 @@
 import os
 
 import AcroExchPDDoc
-import test_pdpage
+from test import test_pd
 
 dosya = "ekli.pdf"
 dosya_yol = os.path.abspath(dosya)
@@ -49,6 +49,7 @@ def yorum_bilgileri(sayfalar):
                                                                 yorum_tarihi.year(), yorum_tarihi.hour(),
                                                                 yorum_tarihi.minute(), yorum_tarihi.second(),
                                                                 yorum_tarihi.millisecond()))
+            print("Yeri {}:{}:{}:{}".format())
 
 
 if __name__ == '__main__':

@@ -29,24 +29,24 @@
 #
 # DrawEx            # Draws page contents into a specified window.
 #
-# GetAnnot          # Gets the specified annotation from the page’s array of annotations. #############################
+# GetAnnot          # Gets the specified annotation from the page’s array of annotations.
 #
-# GetAnnotIndex     # Gets the index (within the page’s annotation array) of the specified annotation. ################
+# GetAnnotIndex     # Gets the index (within the page’s annotation array) of the specified annotation.
 #
-# GetDoc            # Gets the AcroExch.PDDoc associated with the page. ################################################
+# GetDoc            # Gets the AcroExch.PDDoc associated with the page.
 #
-# GetNumAnnots      # Gets the number of annotations on the page. ######################################################
+# GetNumAnnots      # Gets the number of annotations on the page.
 #
-# GetNumber         # Gets the page number of the current page. The first page in a document is page zero. #############
+# GetNumber         # Gets the page number of the current page. The first page in a document is page zero.
 #
-# GetRotate         # Gets the rotation value, in degrees, for the current page. #######################################
+# GetRotate         # Gets the rotation value, in degrees, for the current page.
 #
-# GetSize           # Gets a page’s width and height in points. ########################################################
+# GetSize           # Gets a page’s width and height in points.
 #
 # RemoveAnnot       # Removes the specified annotation from the page’s annotation array.
 #
-# SetRotate         # Sets the rotation, in degrees, for the current page. #############################################
-
+# SetRotate         # Sets the rotation, in degrees, for the current page.
+########################################################################################################################
 # Need AcquirePage object. bu sınıfı çalıştırmak için AcroExch.PDDoc dan AcquirePage objesi alınması gerekmektedir.
 import AcroExchPDAnnot
 import AcroExchPDDoc
@@ -260,7 +260,7 @@ class PDPage:
     #
     # Returns
     # -1 if the page is successfully copied, 0 otherwise.
-    def copy_to_clipboard(self, acrorect, x_origin, y_origin, zoom=100): # TODO: Not working tobe check
+    def copy_to_clipboard(self, acrorect, x_origin, y_origin, zoom=100):  # TODO: Not working tobe check
         return self.pdpage.CopyToClipboard(acrorect, x_origin, y_origin, zoom)
 
     # CreatePageHilite

@@ -74,11 +74,13 @@ def dosya_infosu_al(pdf_dosyası=pdf_dosyası):
     güncelleme_tarihi = pdf_dosyası.get_info("ModDate")
     info_t = pdf_dosyası.get_info("Trapped")
     if info:
-        print("Dosya infosu alındı.{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-".format(info, info_title, info_yazar, info_konu,
-                                                                               info_anahtar_kelime,
-                                                                               info_oluşturan, info_sağlayıcı,
-                                                                               info_oluşturma_tarihi,
-                                                                               güncelleme_tarihi, info_t))
+        print("Dosya infosu alındı.{} - {} - {} - {} - {} - {} - {} - {} - {} - {}".format(info, info_title, info_yazar,
+                                                                                           info_konu,
+                                                                                           info_anahtar_kelime,
+                                                                                           info_oluşturan,
+                                                                                           info_sağlayıcı,
+                                                                                           info_oluşturma_tarihi,
+                                                                                           güncelleme_tarihi, info_t))
 
 
 def dosya_infosu_ekle(pdf_dosyası=pdf_dosyası):
