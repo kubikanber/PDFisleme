@@ -1,4 +1,4 @@
-#! python3 this code written by kubikanber, 09.11.2018, author: kubikanber
+#! python3 this code written by kubikanber, 13.11.2018, author: kubikanber
 # 1. read files in pages folder.
 # 2. combine to one file.
 import os
@@ -6,7 +6,7 @@ import os
 import AcroExchPDDoc
 
 klasör = ".\pages"
-hedef_dosya = "C:\\Users\\kubikanber\\Desktop\\PYT\\PDFisleme\\combine_files\\tamam.pdf"
+hedef_dosya = "C:\\Users\\kubikanber\\Desktop\\PYT\\PDFisleme\\utility_files\\tamam.pdf"
 
 
 def klasör_okuma(klasör):
@@ -26,7 +26,6 @@ def dosyaları_okuma(dosya_yol):
 
 
 def pdf_sayfa_ekle(tek_dosya, dosyalar, sayfa_sayısı):
-    # eklenecek_dosya = "C:\\Users\\kubikanber\\Desktop\\PYT\\PDFisleme\\test\\440-LS-008-14-58.pdf"
     eklenecek_dosya = dosyalar
     ek_sayfalar = sayfa_sayısı
     if tek_dosya.insert_pages(-1, eklenecek_dosya, 0, ek_sayfalar):

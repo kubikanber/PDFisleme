@@ -11,14 +11,17 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PDFisleme$test01__1_.coverage" NAME="test01 (1) Coverage Results" MODIFIED="1541776260488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/PDFisleme$pdfc.coverage" NAME="pdfc Coverage Results" MODIFIED="1540550543991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PDFisleme$DeleteAnnot.coverage" NAME="DeleteAnnot Coverage Results" MODIFIED="1542117473349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utility_files" />
     <SUITE FILE_PATH="coverage/PDFisleme$test.coverage" NAME="test Coverage Results" MODIFIED="1541237569863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDFisleme$PDFy.coverage" NAME="PDFy Coverage Results" MODIFIED="1541415137607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDFisleme$pdf.coverage" NAME="pdf Coverage Results" MODIFIED="1540547201037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDFisleme$test_pdpage.coverage" NAME="test_pdpage Coverage Results" MODIFIED="1541765347746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDFisleme$test_pdpage__1_.coverage" NAME="test_pdpage (1) Coverage Results" MODIFIED="1541841475576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/PDFisleme$testpdddoc__1_.coverage" NAME="testpdddoc (1) Coverage Results" MODIFIED="1542101492027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/PDFisleme$GetFileInfo.coverage" NAME="GetFileInfo Coverage Results" MODIFIED="1542122792164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utility_files" />
     <SUITE FILE_PATH="coverage/PDFisleme$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1541571347481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDFisleme$test_annot.coverage" NAME="test_annot Coverage Results" MODIFIED="1542094775446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/PDFisleme$Combine.coverage" NAME="Combine Coverage Results" MODIFIED="1542120844997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utility_files" />
     <SUITE FILE_PATH="coverage/PDFisleme$PDFpage.coverage" NAME="PDFpage Coverage Results" MODIFIED="1541490932239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDFisleme$testpdddoc.coverage" NAME="testpdddoc Coverage Results" MODIFIED="1541688332889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PDFisleme$combine.coverage" NAME="combine Coverage Results" MODIFIED="1542111093364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/combine_files" />
@@ -41,47 +44,96 @@
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="md" value="7" />
-          <entry key="py" value="70" />
+          <entry key="py" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="70" />
+          <entry key="Python" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="1904" />
-          <entry key="dummy" value="24" />
+          <entry key="dummy" value="25" />
           <entry key="gitignore" value="17" />
           <entry key="md" value="29" />
-          <entry key="py" value="33258" />
+          <entry key="py" value="33775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="29" />
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Python" value="35162" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="35679" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/combine_files/combine.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utility_files/Combine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="1309">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#134#143#0" expanded="true" />
-                <marker date="1542111093349" expanded="true" signature="302:3296" ph="..." />
-                <marker date="1542111093349" expanded="true" signature="1535:3296" ph="..." />
-                <marker date="1542111093349" expanded="true" signature="1702:1833" ph="..." />
+                <marker date="1542115840059" expanded="true" signature="302:3195" ph="..." />
+                <marker date="1542115840059" expanded="true" signature="1434:3195" ph="..." />
+                <marker date="1542115840059" expanded="true" signature="1601:1732" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utility_files/DeleteAnnot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <element signature="e#103#112#0" expanded="true" />
+                <marker date="1542121195248" expanded="true" signature="210:318" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utility_files/GetFileInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+              <folding>
+                <element signature="e#110#119#0" expanded="true" />
+                <marker date="1542122792150" expanded="true" signature="1904:4392" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_annot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="44" column="40" selection-start-line="40" selection-start-column="4" selection-end-line="52" selection-end-column="40" />
+              <folding>
+                <element signature="e#118#127#0" expanded="true" />
+                <marker date="1542111967718" expanded="true" signature="768:3138" ph="..." />
+                <marker date="1542111967718" expanded="true" signature="790:1981" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_pdpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -144,6 +196,11 @@
         <option value="$PROJECT_DIR$/AcroExchPDDoc.py" />
         <option value="$PROJECT_DIR$/combine_files/combine.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/utility_files/combine.py" />
+        <option value="$PROJECT_DIR$/utility_files/GetFileAnnotation.py" />
+        <option value="$PROJECT_DIR$/utility_files/GetPageInfo.py" />
+        <option value="$PROJECT_DIR$/utility_files/DeleteAnnot.py" />
+        <option value="$PROJECT_DIR$/utility_files/GetFileInfo.py" />
       </list>
     </option>
   </component>
@@ -154,9 +211,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1445" />
+    <option name="x" value="-1656" />
     <option name="y" value="30" />
-    <option name="width" value="1294" />
+    <option name="width" value="1505" />
     <option name="height" value="975" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -190,6 +247,16 @@
               <item name="PDFisleme" type="b2602c69:ProjectViewProjectNode" />
               <item name="PDFisleme" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PDFisleme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDFisleme" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PDFisleme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PDFisleme" type="462c0819:PsiDirectoryNode" />
+              <item name="utility_files" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -201,7 +268,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -222,7 +289,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.combine">
+  <component name="RunManager" selected="Python.GetFileInfo">
+    <configuration name="Combine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PDFisleme" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utility_files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utility_files/Combine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteAnnot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PDFisleme" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utility_files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utility_files/DeleteAnnot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GetFileInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PDFisleme" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utility_files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utility_files/GetFileInfo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="combine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PDFisleme" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,72 +370,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/combine_files/combine.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PDFisleme" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_annot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PDFisleme" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_annot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_pdpage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PDFisleme" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\kubikanber\Desktop\PYT\PDFisleme\test\test_pdpage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,19 +401,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_annot" />
-      <item itemvalue="Python.test01 (1)" />
-      <item itemvalue="Python.test_pdpage (1)" />
       <item itemvalue="Python.testpdddoc (1)" />
       <item itemvalue="Python.combine" />
+      <item itemvalue="Python.GetFileInfo" />
+      <item itemvalue="Python.DeleteAnnot" />
+      <item itemvalue="Python.Combine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GetFileInfo" />
+        <item itemvalue="Python.Combine" />
+        <item itemvalue="Python.DeleteAnnot" />
         <item itemvalue="Python.combine" />
         <item itemvalue="Python.testpdddoc (1)" />
-        <item itemvalue="Python.test_annot" />
-        <item itemvalue="Python.test_pdpage (1)" />
-        <item itemvalue="Python.test01 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -373,15 +440,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1445" y="30" width="1294" height="975" extended-state="0" />
+    <frame x="-1656" y="30" width="1505" height="975" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13128039" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11211073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991103" visible="true" weight="0.43942994" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4991103" visible="true" weight="0.43942994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3182898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,9 +581,9 @@
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/combine_files/combine.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="100" />
+          <url>file://$PROJECT_DIR$/utility_files/GetFileInfo.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -788,18 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_annot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#118#127#0" expanded="true" />
-            <marker date="1542111967718" expanded="true" signature="768:3138" ph="..." />
-            <marker date="1542111967718" expanded="true" signature="790:1981" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -860,22 +915,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_pdpage.py">
+    <entry file="file://$PROJECT_DIR$/utility_files/GetPageInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="97" column="23" selection-start-line="97" selection-end-line="97" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#75#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/combine_files/combine.py">
+    <entry file="file://$PROJECT_DIR$/utility_files/GetFileAnnotation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#75#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_pdpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility_files/Combine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="e#134#143#0" expanded="true" />
-            <marker date="1542111093349" expanded="true" signature="302:3296" ph="..." />
-            <marker date="1542111093349" expanded="true" signature="1535:3296" ph="..." />
-            <marker date="1542111093349" expanded="true" signature="1702:1833" ph="..." />
+            <marker date="1542115840059" expanded="true" signature="302:3195" ph="..." />
+            <marker date="1542115840059" expanded="true" signature="1434:3195" ph="..." />
+            <marker date="1542115840059" expanded="true" signature="1601:1732" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility_files/DeleteAnnot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#103#112#0" expanded="true" />
+            <marker date="1542121195248" expanded="true" signature="210:318" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_annot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="44" column="40" selection-start-line="40" selection-start-column="4" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="e#118#127#0" expanded="true" />
+            <marker date="1542111967718" expanded="true" signature="768:3138" ph="..." />
+            <marker date="1542111967718" expanded="true" signature="790:1981" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility_files/GetFileInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+          <folding>
+            <element signature="e#110#119#0" expanded="true" />
+            <marker date="1542122792150" expanded="true" signature="1904:4392" ph="..." />
           </folding>
         </state>
       </provider>
