@@ -25,7 +25,7 @@
 #
 # CreateTextSelect  # Creates a text selection from the specified rectangle on the specified page. ?????????????????????
 #
-# CreateThumbs      # Creates thumbnail images for the specified page range in a document. #####????????????????????????
+# CreateThumbs      # Creates thumbnail images for the specified page range in a document.
 #
 # CropPages         # Crops the pages in a specified range in a document.
 #
@@ -231,9 +231,11 @@ class PDDoc:
     # PDDocOldVersion           ## Document’s version is older than current.
     #
     # PDDocSuppressErrors       ## Don’t display errors.
-    # Dökümanda bir değişiklik olduysa 8325
-    # döküman kayıt edildikten sonra 8320
-    # yeni bir döküman oluşturulduğunda 15 içinde sayfa yok.
+
+    # 8325  : Dökümanda bir değişiklik olduysa
+    # 8320  : döküman kayıt edildikten sonra
+    # 15    : yeni bir döküman oluşturulduğunda  içinde sayfa yok.
+    # 9344  : ???????????????????????????
     def get_flags(self):
         return self.pddoc.GetFlags()
 

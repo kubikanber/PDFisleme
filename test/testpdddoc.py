@@ -121,7 +121,7 @@ def sayfa_sil(pdf_dosyası=pdf_dosyası):
 
 
 def sayfa_ekle(pdf_dosyası=pdf_dosyası):
-    eklenecek_dosya = "C:\\Users\\kubikanber\\Desktop\\PYT\\PDFisleme\\440-LS-008-14-58.pdf"
+    eklenecek_dosya = "C:\\Users\\kubikanber\\Desktop\\PYT\\PDFisleme\\test\\440-LS-008-14-58.pdf"
     if pdf_dosyası.insert_pages(0, eklenecek_dosya, 0, 1):
         print("Sayfa eklendi.")
 
@@ -142,19 +142,19 @@ if __name__ == '__main__':
     # arayüz()  # arayüz denemesi için arayüz_içinde örneklemeler yapılacak.
     # dosya_durumu_ayarla()
     # bilgi()
-    dosya_infosu_al()
+    # dosya_infosu_al()
     # dosya_infosu_ekle()
     # dosya_sayfa_modu_değiştir()
     # küçük_resimleri_yeniden_yükle()
     # sayfa_sil()
-    # sayfa_ekle()
+    sayfa_ekle()
     # sayfa_yeri_değiştir()
     # sayfa_değiştir()  # sayfa değiştir projede boyanan sayfalar için kullanılmalı.
 
     # yeni_döküman = yeni_döküman_oluştur()
     # bilgi(yeni_döküman)
 
-    sayfaları_kırp()
+    # sayfaları_kırp()
     # bilgi()
 
     # dosya_kapat(yeni_döküman, "C:\\Users\\kubikanber\\Desktop\\PYT\\PDFisleme\\pdf_yeni.pdf")

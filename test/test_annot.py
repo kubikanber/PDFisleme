@@ -2,10 +2,9 @@
 import os
 from copy import copy
 
-import AcroExchPDAnnot
 import AcroExchPDDoc
 import AcroExchRect
-import test_pdpage
+from test import test_pdpage
 
 dosya = "440-LS-008-14-58.pdf"
 dosya_yol = os.path.abspath(dosya)

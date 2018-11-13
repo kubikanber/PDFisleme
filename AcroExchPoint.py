@@ -5,9 +5,7 @@
 # Properties
 # The Point object has the following properties.
 #
-# Property
-#
-# Description
+# Property####Description###############################################################################################
 #
 # X
 #
@@ -16,6 +14,7 @@
 # Y
 #
 # Gets or sets the y-coordinate of an AcroPoint.
+########################################################################################################################
 from win32com.client.dynamic import Dispatch
 
 
