@@ -154,7 +154,7 @@ if __name__ == '__main__':
     # yeni_döküman = yeni_döküman_oluştur()
     # bilgi(yeni_döküman)
 
-    # sayfaları_kırp()
+    sayfaları_kırp()
     # bilgi()
 
     # dosya_kapat(yeni_döküman, "C:\\Users\\kubikanber\\Desktop\\PYT\\PDFisleme\\pdf_yeni.pdf")

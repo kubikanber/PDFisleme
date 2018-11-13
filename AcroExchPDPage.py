@@ -192,8 +192,15 @@ class PDPage:
     #
     # Returns
     # 0 if the Acrobat application does not support editing, -1 otherwise
+
     # burada AcroExch.PDAnnot objesi kullanılacak.
     # Annot objesi önceden oluşturulup sonra sayfa eklenmesi
+    # Add another text annotation copy to the page.
+    #
+    # The difference from the AddNewAnnot method is a method created to copy based on
+    # annotations in the same PDF document.
+    #
+    # You can not copy directly from other PDF documents.
     def add_annot(self, index_add_after, pdannot):
         return self.pdpage.AddAnnot(index_add_after, pdannot)
 

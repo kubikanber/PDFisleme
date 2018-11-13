@@ -43,6 +43,8 @@
 #
 # SetTitle      # Sets a text annotation’s title.
 ########################################################################################################################
+from win32com.client.dynamic import Dispatch
+
 import AcroExchRect
 import AcroExchTime
 
@@ -51,6 +53,7 @@ class PDAnnot:
 
     def __init__(self, get_annot):
         self.pdannot = get_annot
+
 
     # GetColor
     # Gets an annotation’s color.
@@ -62,6 +65,10 @@ class PDAnnot:
     # The annotation’s color, a long value of the form 0x00BBGGRR where the first byte from the right (RR)
     # is a relative value for red, the second byte (GG) is a relative value for green, and the third byte (BB)
     # is a relative value for blue. The high-order byte must be 0.
+
+    # Some samples of RGB are shown below.
+    #
+    # Please use it with method to set color number or get it. http://pdf-file.nnn2.com/?p=145
     def get_color(self):
         return self.pdannot.GetColor()
 
@@ -110,6 +117,7 @@ class PDAnnot:
     #
     # Returns
     # The annotation’s subtype. The built-in subtypes are Text and Link.
+    # There are four types: Text, Popup, Link, Highlight.
     def get_subtype(self):
         return self.pdannot.GetSubtype()
 
@@ -149,7 +157,7 @@ class PDAnnot:
     #
     # Returns
     # -1 if open, 0 otherwise.
-    def is_open(self):
+    def is_open(self):  # not understood
         return self.pdannot.IsOpen()
 
     # IsValid
@@ -179,7 +187,7 @@ class PDAnnot:
     #
     # Returns
     # -1 if the action was executed successfully, 0 otherwise.
-    def perform(self, acroavdoc):
+    def perform(self, acroavdoc):  # todo: future
         return self.pdannot.Perform(acroavdoc)
 
     # SetColor
@@ -266,8 +274,10 @@ class PDAnnot:
     #
     # Returns
     # -1 if a rectangle was supplied, 0 otherwise.
-    def set_rect(self, acrorect):
-        return self.pdannot.SetRect(acrorect)
+    def set_rect(self, bottom_point, left_point, right_point, top_point):
+        acrorect = AcroExchRect.Rect()
+        acrorect.create_rect(bottom_point, left_point, right_point, top_point)
+        return self.pdannot.SetRect(acrorect.rect)
 
     # SetTitle
     # Sets a text annotation’s title.
