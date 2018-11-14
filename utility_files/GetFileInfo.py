@@ -64,7 +64,7 @@ def pdf_sayfa_bilgisi(pdf_sayfası):
         print("{} derecede gösterilmektedir.".format(sayfa_dön), end=" ")
         print("Sayfa {:0.0f} x {:0.0f} boyutlarındadır.".format(x_noktası, y_noktası))
 
-        yorumlar = yorumları_al(sayfa)
+        yorumlar = yorumları_al(pdf_dosyası, sayfa)
 
         for yorum in yorumlar:
             yorum_index = sayfa.get_annot_index(yorum.pdannot)
@@ -82,7 +82,6 @@ def pdf_sayfa_bilgisi(pdf_sayfası):
             print("içeriğinde: {} ".format(yorum_içeriği), end=" ")
             print("Başlığı: {}".format(yorum_başlığı), end=" ")
             print("Rengi: {}".format(yorum_rengi), end=" ")
-
             print("Yorum tarihi: {}:{}:{} - {}:{}:{}:{}".format(yorum_tarihi.date(), yorum_tarihi.month(),
                                                                 yorum_tarihi.year(), yorum_tarihi.hour(),
                                                                 yorum_tarihi.minute(), yorum_tarihi.second(),
@@ -92,7 +91,7 @@ def pdf_sayfa_bilgisi(pdf_sayfası):
             print(":{}".format(yorum_geçerlimi))
 
 
-def yorumları_al(sayfa):
+def yorumları_al(pdf_dosyası, sayfa):
     yorum_sayısı = sayfa.get_num_annots()
     yorumlar = []
 

@@ -54,7 +54,6 @@ class PDAnnot:
     def __init__(self, get_annot):
         self.pdannot = get_annot
 
-
     # GetColor
     # Gets an annotation’s color.
     #
