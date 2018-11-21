@@ -9,9 +9,9 @@ klasör = ".\pages"
 hedef_dosya = "C:\\Users\\kubikanber\\Desktop\\PYT\\PDFisleme\\utility_files\\tamam.pdf"
 
 
-def klasör_okuma(klasör):
-    print("Okunan klasör: {}".format(klasör))
-    klasörler = [k for k in os.listdir(klasör) if os.path.isdir(os.path.join(klasör, k))]
+def klasör_okuma(kaynak_klasör):
+    print("Okunan klasör: {}".format(kaynak_klasör))
+    klasörler = [k for k in os.listdir(kaynak_klasör) if os.path.isdir(os.path.join(kaynak_klasör, k))]
     # print("Okundu.")
     return klasörler
 

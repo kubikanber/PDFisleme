@@ -6,3 +6,4 @@ Acrobat automation library to automate pdf functions. Adobe Reader or Adobe Acro
 
 **Requirements**:
 * Windows Adobe Acrobat installed
+* pywin32 

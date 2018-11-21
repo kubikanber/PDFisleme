@@ -1,5 +1,5 @@
 #! python3 this code written by kubikanber, 13.11.2018, author: kubikanber
-# 1. dosya içindeki bilgileri alma
+# 1. dosya içinde ki bilgileri alma
 import os
 
 import AcroExchPDDoc
@@ -108,7 +108,7 @@ def yorumları_al(pdf_dosyası, sayfa):
 
 
 if __name__ == '__main__':
-    dosya = "tamam.pdf"
+    dosya = "..\\test\\ekli.pdf"
     dosya_yol = os.path.abspath(dosya)
     pdf_dosyası = AcroExchPDDoc.PDDoc(dosya_yol)
     pdf_dosya_bilgisi(pdf_dosyası)
